@@ -1,0 +1,72 @@
+.pagination-button {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+
+    justify-content: flex-end;
+    height: 50px;
+}
+
+.paginationBttns {
+    width: 50%;
+    list-style: none;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.paginationBttns a {
+    padding: 4px 5px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid blue;
+    color: var(--secondary);
+    cursor: pointer;
+}
+
+.paginationBttns a:hover {
+    color: white !important;
+    background-color: blue;
+}
+
+.paginationActive a {
+    color: white !important;
+    background-color: blue;
+    font-weight: bold;
+}
+
+.paginationDisabled a:hover {
+    background-color: var(--white);
+    color: var(--secondary);
+}
+
+.paginationDisabled a {
+    color: black;
+    opacity: .7;
+    background-color: white;
+}
+
+.my-drop-down {
+    position: absolute;
+    left: 15%;
+    background-color: red;
+}
+
+.status-update-body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    li {
+        text-align: center;
+        list-style: none;
+        background-color: #ddd;
+        padding: 4px 4px;
+        margin: 3px 0;
+        width: 200px;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+}

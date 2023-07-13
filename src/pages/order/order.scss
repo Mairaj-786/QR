@@ -1,0 +1,9 @@
+.order-details {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin-top: 3rem;
+
+  & > div {
+    margin-top: 1rem;
+  }
+}

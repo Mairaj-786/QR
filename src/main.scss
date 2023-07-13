@@ -1,0 +1,19 @@
+.mobile-area {
+  .ant-row {
+    @media (max-width: 560px) {
+      row-gap: 30px !important;
+    }
+  }
+}
+
+.subscribe {
+  @media (max-width: 575px) {
+    display: none;
+  }
+}
+
+.emailInput {
+  @media (max-width: 575px) {
+    padding-top: 2rem;
+  }
+}
